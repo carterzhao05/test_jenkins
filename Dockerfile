@@ -3,7 +3,7 @@ LABEL maintainer="junzhao3@cisco.com"
 LABEL description="build and run mari fuzz test based on ubuntu16.04 and clang9.0"
 
 
-WORKDIR /mari
+WORKDIR /mari/test
 
 COPY ./bandwidth_eval_fuzz /
 COPY ./mari.profdata  /
